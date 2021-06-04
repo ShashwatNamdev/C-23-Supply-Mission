@@ -10,7 +10,7 @@ class RedBox{
   }
   display(){
     rectMode(CENTER);
-    fill("brown");
+    fill("red");
     rect(this.body.position.x, this.body.position.y, this.width, this.height);
   }
 };
